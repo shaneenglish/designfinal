@@ -1,0 +1,165 @@
+html, body{
+	height: 100%;
+	margin:0;
+}
+
+*{
+	font-family: 'Inconsolata', monospace;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+img{
+	max-width: 100%;
+}
+
+p{
+	font-family: 'noto-serif';
+	font-variant:normal;
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+#header{
+	height: 60px;
+	background-color:black;
+	padding-top: 20px;
+	width: 100%;
+
+}
+#nav {
+	font-variant: small-caps;
+	text-transform: lowercase;
+}
+#nav a{
+	color:white;
+	font-family: helvetica, sans-serif;
+	font-size: 20pt;
+	padding-right:30px;
+	text-decoration: none;
+	text-align: center;
+	width: 50%;
+}
+
+#nav a:hover{
+	text-decoration: underline;
+}
+
+.textMargin{
+	margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+#eotechsight{
+	max-width: 300px;
+	width: 100%; 
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+#faultysightwapo{
+	float: right;
+}
+
+#blockquote1{
+
+	float: left;
+}
+
+h1{
+	font-size: 36pt;
+	text-align: left;
+	margin-left: 5%;
+	font-weight: 300;
+}
+
+h2{
+	font-size:20pt;
+}
+
+h3{
+	text-align: left;
+	margin-left: 5%;
+	font-weight: 300;
+}
+
+h4{
+	text-align: left;
+	margin-left: 5%;
+	font-weight: 200;
+}
+
+.database{
+	margin-left: 18%;
+	margin-right: 18%;
+}
+
+tr:nth-child(even){
+	background-color: #f2f2f2
+	}
+
+table{
+	table-layout: fixed;
+}
+td {
+	padding: 10px;
+}
+.block-wrapper {
+	float: left;
+    width: 300px;
+    margin-right: 20px;
+}
+
+#index{
+	margin: auto;
+    position: fixed;
+    width: 25%;
+}
+
+#decade{
+	margin: auto;
+    position: fixed;
+    float: right;
+	}
+
+#pattern{
+margin: auto;
+    position: fixed;
+}
+
+#database{
+	margin: auto;
+   position: fixed;
+
+}
+
+.sub-nav {
+	margin-left:5%;
+}
+a.first-a {
+	padding-left: 0;
+}
+.a-block {
+	width: 50%;
+	float:left;
+}
+@media (min-width: 850px) {
+	.a-block {
+	width: auto;
+	float:left;
+}
+	#nav a{
+	 width: auto;
+	}
+}
+
+@media (max-width:850px) {
+	#header{
+		height: 100px;
+	}
+
+	#nav a{
+		padding-right: 0px;
+	}
+}
